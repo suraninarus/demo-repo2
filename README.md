@@ -1,4 +1,4 @@
-solt@galvatron:~/Desktop/GitHub/demo-repo2$ nano README.md
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ nano README.md
 zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ ls
 README.md
 zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git init
@@ -33,7 +33,7 @@ and the repository exists.
 
 # THIS MEANS THAT GIT DOESN'T KNOW THIS REPOSITORY ==> WE HAVE TO CREATE IT FIRST.
 #  WE HAVE TO CREATE THE NEW REPOSITORY ON GITHUB AND CONNECT THE LOCAL TO THE REPO: 
-# Connecting local(origin) to git remote (master):
+# Connecting local(origin) to git remote (master)
 zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git remote add origin https://github.com/suraninarus/demo-repo2.git
 zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git remote -v
 origin  https://github.com/suraninarus/demo-repo2.git (fetch)
@@ -48,3 +48,16 @@ Writing objects: 100% (3/3), 342 bytes | 342.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/suraninarus/demo-repo2.git
  * [new branch]      master -> master
+
+ # Setting push up so we don't have to type out "origin" and "master" every time for git push 
+ zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 1.14 KiB | 1.14 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/suraninarus/demo-repo2.git
+   7fb2cd8..e9aba05  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ 
