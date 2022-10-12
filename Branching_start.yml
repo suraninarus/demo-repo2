@@ -1,0 +1,29 @@
+
+					BRANCHING
+					=========
+# To show on which brach you are on use: $ git branch 
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git branch
+* master 
+# now we only have the master branch 
+
+# to cretae a new branch use the $ git checkout -b {branchname}
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git checkout -b feature-branch_1
+Switched to a new branch 'feature-branch_1'
+
+# To show on which brach you are on use: $ git branc
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git branch
+* feature-branch_1
+  master
+# # now we only have the master branc AND the feature-branch_1 and we automatically swithed to the new branch
+
+# to switch to another branch use: $ git checkout {branchname}
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git checkout master 
+M       README.md
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'
+
+# to see on whitch ranch you ar on use: $ git branch 
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git branch
+* feature-branch_1
+  master
+

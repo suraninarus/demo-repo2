@@ -1,3 +1,6 @@
+
+# CREATING A NEW REPO FROM LOCAL (ACTUALLY JUST CONNECTING TO NEWLY CRETAED GITHUB REPO)
+
 zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ nano README.md
 zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ ls
 README.md
@@ -62,3 +65,7 @@ To https://github.com/suraninarus/demo-repo2.git
    7fb2cd8..e9aba05  master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ 
+
+
+# HERE I WOULD HAVE ADDED THE BRANCHING PART, BUT I CREATED ANOTHER FILE INSTEAD. 
+# FUCK
