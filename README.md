@@ -50,6 +50,7 @@ To https://github.com/suraninarus/demo-repo2.git
  * [new branch]      master -> master
 
  # Setting push up so we don't have to type out "origin" and "master" every time for git push 
+ # ============================================================================================
  zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git push -u origin master
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
