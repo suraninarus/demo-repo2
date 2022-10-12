@@ -27,3 +27,68 @@ zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git branch
 * feature-branch_1
   master
 
+# =======================  DIFFERECNEC ==========================
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git branch  
+* feature-branch_1
+  master
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git diff feature-branch_1 
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git diff master
+diff --git a/Branching_start.yml b/Branching_start.yml
+new file mode 100644
+index 0000000..4e32d2e
+--- /dev/null
++++ b/Branching_start.yml
+@@ -0,0 +1,29 @@
++
++                                       BRANCHING
++                                       =========
++# To show on which brach you are on use: $ git branch 
++zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git branch
++* master 
++# now we only have the master branch 
++
++# to cretae a new branch use the $ git checkout -b {branchname}
++zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git checkout -b feature-branch_1
++Switched to a new branch 'feature-branch_1'
++
++# To show on which brach you are on use: $ git branc
++zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git branch
++* feature-branch_1
++  master
++# # now we only have the master branc AND the feature-branch_1 and we automatically swithed to the new branch
++
++# to switch to another branch use: $ git checkout {branchname}
++zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git checkout master 
++M       README.md
++Switched to branch 'master'
++Your branch is up to date with 'origin/master'
++
++# to see on whitch ranch you ar on use: $ git branch 
++zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git branch
++* feature-branch_1
++  master
++
+diff --git a/README.md b/README.md
+index 9810ea3..40c8599 100644
+--- a/README.md
++++ b/README.md
+@@ -1,3 +1,6 @@
++
++# CREATING A NEW REPO FROM LOCAL (ACTUALLY JUST CONNECTING TO NEWLY CRETAED GITHUB REPO)
++
+ zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ nano README.md
+ zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ ls
+ README.md
+@@ -61,4 +64,8 @@ Total 3 (delta 0), reused 0 (delta 0)
+ To https://github.com/suraninarus/demo-repo2.git
+    7fb2cd8..e9aba05  master -> master
+ Branch 'master' set up to track remote branch 'master' from 'origin'.
+-zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ 
+\ No newline at end of file
++zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ 
++
++
++# HERE I WOULD HAVE ADDED THE BRANCHING PART, BUT I CREATED ANOTHER FILE INSTEAD. 
++# FUCK
+\ No newline at end of file
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ 
