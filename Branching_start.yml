@@ -92,3 +92,34 @@ index 9810ea3..40c8599 100644
 +# FUCK
 \ No newline at end of file
 zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ 
+
+# PUSSHIN NEW BRANCH UP THE NEW BRANCH
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git status
+On branch feature-branch_1
+nothing to commit, working tree clean
+# WE HAVE TO SET THE UPSTREAM ORIGIN THAT IS WHAT THE -u flag does
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ git push -u origin feature-branch_1
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 1.63 KiB | 555.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+remote: 
+remote: Create a pull request for 'feature-branch_1' on GitHub by visiting:
+remote:      https://github.com/suraninarus/demo-repo2/pull/new/feature-branch_1
+remote: 
+To https://github.com/suraninarus/demo-repo2.git
+ * [new branch]      feature-branch_1 -> feature-branch_1
+Branch 'feature-branch_1' set up to track remote branch 'feature-branch_1' from 'origin'.
+zsolt@galvatron:~/Desktop/GitHub/demo-repo2$ 
+
+# Making a PR (pull request) == pulling the branch you are in to a another branch
+# This example the feature_' brach will be pulled in the master branch
+# After anyone can review our code, comment on it and ask us to make changes. 
+# BUT: still be able to make additional commits, as long as you make the push with the same branch you are making the PR with. 
+# Delete the branch, and for every change create a new branch and repeate the process: 
+
+
+
