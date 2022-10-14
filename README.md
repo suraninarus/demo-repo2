@@ -68,4 +68,4 @@ zsolt@galvatron:~/Desktop/GitHub/demo-repo2$
 
 
 # HERE I WOULD HAVE ADDED THE BRANCHING PART, BUT I CREATED ANOTHER FILE INSTEAD. 
-# FUCK
+
